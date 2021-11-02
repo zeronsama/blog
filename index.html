@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+</head>
+
+<body>
+	<div id="app">zerrun 摸鱼中~</div>
+	<script>
+		window.$docsify = {
+			coverpage: true,//封面
+			loadSidebar: true,//侧栏
+			subMaxLevel: 3,//标题渲染
+			formatUpdated: '本文最后一次保存于 {YYYY}年{MM}月{DD}日'//更新时间
+		}
+	</script>
+	<script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+	<!-- 下面是加的插件 -->
+	<!-- c语法高亮 -->
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-c.min.js"></script>
+	<!-- cpp语法高亮 -->
+	<script src="//cdn.jsdelivr.net/npm/prismjs@1.25.0/components/prism-cpp.min.js"></script>
+	<!-- katex支持 -->
+	<script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+	<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css" />
+	<!-- 黑暗主题 -->
+	<!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css">-->
+</body>
+
+</html>

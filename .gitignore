@@ -1,3 +1,6 @@
+#cmd
+*.bat
+
 # Prerequisites
 *.d
 

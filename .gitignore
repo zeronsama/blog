@@ -1,5 +1,6 @@
-#cmd
+#script
 *.bat
+*.ps1
 
 # Prerequisites
 *.d
